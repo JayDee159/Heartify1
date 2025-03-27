@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Information -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Heartify Team">
+  <meta name="description" content="Heartify - Empowering your heart health with cutting-edge AI to predict heart disease.">
+  <title>Heartify - Predict Heart Disease</title>
+  
+  <!-- CSS Styles -->
+  <style>
+    /* Universal Reset */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* Global Body Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff0f5; /* Light pastel pink background */
+      color: #333;
+      line-height: 1.6;
+    }
+    /* Header Styling */
+    header {
+      background-color: #ffc0cb; /* Soft pink */
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 2.5em;
+      color: #b30059;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #660033;
+      margin-top: 10px;
+    }
+    /* Main Content Styling */
+    main {
+      padding: 20px;
+      text-align: center;
+      min-height: calc(100vh - 160px);
+    }
+    main h2 {
+      font-size: 2em;
+      color: #b30059;
+      margin-bottom: 10px;
+    }
+    main p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+    /* Button Styling */
+    .predict-btn {
+      background-color: #ff69b4;
+      color: #fff;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 50px; /* Rounded shape */
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+    }
+    .predict-btn:hover,
+    .predict-btn:focus {
+      transform: scale(1.05);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+    /* Footer Styling */
+    footer {
+      background-color: #ffc0cb;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #660033;
+      /* If you want a sticky footer, uncomment the following lines:
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      */
+    }
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      header p, main p {
+        font-size: 1em;
+      }
+      .predict-btn {
+        font-size: 1em;
+        padding: 12px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Heartify</h1>
+    <p>"Your heart's health is closer than you think."</p>
+  </header>
+  
+  <!-- Main Section -->
+  <main>
+    <h2>Predict Heart Disease</h2>
+    <p>Harness the power of advanced AI to assess your heart health risk in minutes.</p>
+    <button class="predict-btn" type="button">Get Started</button>
+  </main>
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Heartify | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
